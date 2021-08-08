@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Merel';
+  font-weight: 400;
+  src: url('./fonts/Merel/Merel.eot');
+  src: url('./fonts/Merel/Merel.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/Merel/Merel.svg#Merel') format('svg'),
+  url('./fonts/Merel/Merel.ttf') format('truetype'),
+  url('./fonts/Merel/Merel.woff') format('woff'),
+  url('./fonts/Merel/Merel.woff2') format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Merel';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./fonts/Merel/MerelBold.eot');
+  src: local('Merel'),
+  url('./fonts/Merel/MerelBold.woff2') format('woff2'),
+  url('./fonts/Merel/MerelBold.woff') format('woff'),
+  url('./fonts/Merel/MerelBold.ttf') format('truetype');
+}

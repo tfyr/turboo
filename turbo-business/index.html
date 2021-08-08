@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="dist/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=088d81c4-afe1-4947-8fd5-9d7c48766097&lang=ru_RU" type="text/javascript">
+  </script>
+</head>
+<body>
+<div id="app">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <div class="header__logo">
+          <img src="dist/images/logo.png" alt="" class="header__logo-image">
+          <div class="header__logo-text">
+            <span>Бизнес</span>-поставщикам
+          </div>
+        </div>
+
+        <div class="header__info">
+          <a href="#partners" class="header__button">Оставить заявку</a>
+          <a href="tel:+7(3519)33-02-03" class="header__phone">+7 (3519) 33-02-03</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__container">
+      <div class="hero__content">
+        <div class="hero__info">
+          <img src="dist/images/logo.png" alt="" class="hero__logo">
+          <div class="hero__text">
+            торговая площадка с доставкой до конечного потребителя
+          </div>
+          <a href="#partners" class="hero__button">
+            Начать сотрудничество
+          </a>
+        </div>
+        <div class="hero__image-wrapper">
+          <img src="dist/images/hero.png" alt="" class="hero__image">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="advantages__container">
+      <div class="advantages__title">
+        Теперь выгода достанется всем!
+      </div>
+
+      <div class="advantages__list">
+        <div class="advantages__item">
+          Клиенты получат свой заказ через сеть фирменных пунктов выдачи заказов ПВЗ - Турбоо или курьеров
+        </div>
+        <div class="advantages__item">
+          Производители, предприниматели и дистрибьюторы получат дополнительный,
+          стабильный, быстрорастущий канал сбыта
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="work__container">
+      <div class="work__title">Как это работает?</div>
+      <div class="work__description">
+        За небольшую комисию от 5 до 20% вы получаете все необходимое для продвижения
+        собственного бизнеса
+      </div>
+
+      <div class="work__list">
+        <div class="work__item">
+          <div class="work__image-wrapper">
+            <img src="./dist/images/work/online-shop.png" alt="" class="work__image">
+          </div>
+
+          <div class="work__item-title">1. Готовая интернет - площадка</div>
+          <div class="work__item-options">
+            <div class="work__item-option">Создадим за вас  интернет-магазин</div>
+            <div class="work__item-option">Добавим ваши товары  в каталог</div>
+          </div>
+        </div>
+
+        <div class="work__item">
+          <div class="work__image-wrapper">
+            <img src="./dist/images/work/packages.png" alt="" class="work__image">
+          </div>
+
+          <div class="work__item-title">2. Финансы</div>
+          <div class="work__item-options">
+            <div class="work__item-option">Берем комиссию только за выполненные заказы</div>
+            <div class="work__item-option">Предоставим отчеты о продажах</div>
+            <div class="work__item-option">Примем оплату  от покупателей</div>
+          </div>
+        </div>
+
+        <div class="work__item">
+          <div class="work__image-wrapper">
+            <img src="./dist/images/work/open-book.png" alt="" class="work__image">
+          </div>
+          <div class="work__item-title">3. Логистика и доставка</div>
+          <div class="work__item-options">
+            <div class="work__item-option">Организуем  бесплатное хранение  на нашем складе</div>
+            <div class="work__item-option">Комплектуем,  упаковываем, доставляем  заказы покупателям</div>
+            <div class="work__item-option">Принимаем возвраты от покупателей</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="work__schema-title">
+        Вы (партнер ТУРБОО  - Маркет)
+      </div>
+      <div class="work__schema-list">
+        <div class="work__schema-item">
+          <img src="dist/images/work/trolley.png" alt="" class="work__schema-image">
+          <div class="work__schema-text">
+            <span>1.</span> Поставляете товары
+          </div>
+        </div>
+
+        <div class="work__schema-item">
+          <img src="dist/images/work/warehouse.png" alt="" class="work__schema-image">
+          <div class="work__schema-text">
+            <span>2.</span>Мы размещаем их на складе
+          </div>
+        </div>
+
+        <div class="work__schema-item">
+          <img src="dist/images/work/shopping-bag.png" alt="" class="work__schema-image">
+          <div class="work__schema-text">
+            <span>3.</span> Собираем и упаковываем заказы
+          </div>
+        </div>
+
+        <div class="work__schema-item">
+          <img src="dist/images/work/truck.png" alt="" class="work__schema-image">
+          <div class="work__schema-text">
+            <span>4.</span> Доставляем заказы покупателям
+          </div>
+        </div>
+      </div>
+
+      <img src="" alt="" class="work__image">
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+
+    <div class="contacts__container">
+      <h2 class="contacts__title">
+        География присутствия ПВЗ
+      </h2>
+
+      <h2 class="contacts__title mobile">
+        География доставок
+      </h2>
+
+      <div class="contacts__map-wrapper">
+        <div class="contacts__map" id="contacts__map">
+          <div class="contacts__select">
+            <div class="contacts__select-title">Выбрать пункт выдачи</div>
+            <div class="contacts__select-list">
+              <div class="contacts__select-item" data-city="mgn">
+                Магнитогорск
+              </div>
+              <div class="contacts__select-item" data-city="askarovo">
+                Аскарово
+              </div>
+              <div class="contacts__select-item" data-city="uchaly">
+                Учалы
+              </div>
+              <div class="contacts__select-item" data-city="beloreck">
+                Белорецк
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="help">
+    <div class="help__container">
+      <div class="help__list">
+        <div class="help__item">
+          <div class="help__item-title">Мы поможем</div>
+          <div class="help__item-options">
+            <div class="help__item-option">Найти новых клентов</div>
+            <div class="help__item-option">Расширить географию продаж</div>
+            <div class="help__item-option">Сократить расходы на логистику и персонал</div>
+            <div class="help__item-option">Сократить деньги на рекламу</div>
+            <div class="help__item-option">Получать дополнительный доход</div>
+          </div>
+        </div>
+        <div class="help__item">
+          <div class="help__item-title">Что ожидаем от вас</div>
+          <div class="help__item-options">
+            <div class="help__item-option">1. Актуальные, нужные  и полезные товары в различных  направлениях</div>
+            <div class="help__item-option">2. Своевременное пополнение товарных остатков</div>
+            <div class="help__item-option"></div>
+            <div class="help__item-option"></div>
+            <div class="help__item-option"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="help__title">
+        Всю работу ТУРБОО-Маркет берет на себя
+      </div>
+
+      <div class="help__description">
+        Вам только нужно сосредоточиться на подборе товара
+      </div>
+
+      <div class="help__content">
+        <img src="dist/images/help.png" alt="" class="help__image">
+
+        <div class="help__image-description">
+          Сегодня заключаете договор - Завтра получаете прибыль
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="benefit">
+    <div class="benefit__container">
+      <h2 class="benefit__title">Кому это выгодно?</h2>
+
+      <div class="benefit__list">
+        <div class="benefit__item">
+          <img src="./dist/images/benefit/employee.png" alt="" class="benefit__item-image">
+          <div class="benefit__item-text">Действующим предпринимателям</div>
+        </div>
+
+        <div class="benefit__item">
+          <img src="./dist/images/benefit/coordinator.png" alt="" class="benefit__item-image">
+          <div class="benefit__item-text">Начинающим предпринимателям</div>
+        </div>
+
+        <div class="benefit__item">
+          <img src="./dist/images/benefit/investor.png" alt="" class="benefit__item-image">
+          <div class="benefit__item-text">Инвесторам</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partners" id="partners">
+    <div class="partners__container">
+      <div class="partners__title">Оставить заявку</div>
+      <div class="partners__description">
+        Открывай пункты выдачи заказов  и зарабатывай вместе с нами
+      </div>
+
+      <div class="partners__info">
+        <div class="partners__list">
+          <input type="text"
+                 class="partners__input"
+                 placeholder="Контактное лицо"
+          >
+
+          <input type="tel"
+                 class="partners__input partners__phone"
+                 placeholder="Телефон"
+                 data-mask="+7 (###) ###-##-##"
+                 autocomplete="tel"
+          >
+
+          <input type="email"
+                 class="partners__input"
+                 placeholder="E-mail"
+          >
+
+          <input type="text"
+                 class="partners__input"
+                 placeholder="Населенный пункт"
+          >
+        </div>
+        <div class="partners__button">
+          Отправить
+        </div>
+
+        <div class="partners__message"></div>
+      </div>
+
+      <div class="partners__text">
+        Нажимая кнопку отправить, вы соглашаетесь на обработку персональных данных в соответствии
+      </div>
+
+      <div class="partners__background"></div>
+      <div class="partners__background-boxes"></div>
+      <div class="partners__background-family"></div>
+      <div class="partners__background-logo"></div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__links">
+        <a href="/" class="footer__link"><span>Сайт для </span> покупателей</a>
+        <a href="/turbo-business/" class="footer__link"><span>Бизнес</span> - поставщикам</a>
+        <a href="/turbo-pvz/" class="footer__link"><span>Бизнес</span> ПВЗ</a>
+      </div>
+
+      <div class="footer__contacts">
+        <a href="tel:+7351933-02-03" class="footer__link">+7 (3519) 33-02-03</a>
+        <a href="https://www.vk.com/turbooru" class="footer__link">vk.com/turbooru</a>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__logo-wrapper">
+          <img src="./dist/images/logo-mobile.png" alt="" class="footer__logo">
+          <span class="footer__logo-text">Бизнес</span>
+        </div>
+
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link">Поставщикам</a>
+          <a href="#" class="footer__bottom-link">Сайт для покупателей</a>
+        </div>
+
+      </div>
+
+      <div class="footer__sweet"></div>
+      <div class="footer__pillow"></div>
+      <div class="footer__flower"></div>
+    </div>
+  </footer>
+</div>
+<script src="dist/maska.js"></script>
+<script src="dist/script.js"></script>
+</body>
+</html>

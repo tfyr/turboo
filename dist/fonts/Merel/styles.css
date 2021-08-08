@@ -1,0 +1,21 @@
+/*@font-face {*/
+/*  font-family: 'Merel';*/
+/*  font-weight: 400;*/
+/*  src: url(./Merel.eot);*/
+/*  src: url(./Merel.eot?#iefix) format('embedded-opentype'),*/
+/*       url(./Merel.svg#Merel) format('svg'),*/
+/*       url(./Merel.ttf) format('truetype'),*/
+/*       url(./Merel.woff) format('woff'),*/
+/*       url(./Merel.woff2) format('woff2');*/
+/*}*/
+
+@font-face {
+  font-family: 'Merel';
+  font-weight: 500;
+  src: url(./MerelBold.eot);
+  src: url(./MerelBold.eot?#iefix) format('embedded-opentype'),
+  url(./MerelBold.svg#Merel) format('svg'),
+  url(./MerelBold.ttf) format('truetype'),
+  url(./MerelBold.woff) format('woff'),
+  url(./MerelBold.woff2) format('woff2');
+}
