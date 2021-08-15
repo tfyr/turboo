@@ -7,6 +7,11 @@ body {
 div {
   box-sizing: border-box; }
 
+.app {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+
 .header {
   height: 142px;
   box-shadow: 2px 3.5px 18px 0 rgba(33, 33, 33, 0.42);
@@ -197,7 +202,8 @@ div {
 
 .advantages__list {
   display: grid;
-  grid-template-areas: "item-1 item-2 item-3" "item-4 item-7 item-5";
+  grid-template-areas: "item-1 item-2 item-3"
+ "item-4 item-7 item-5";
   grid-template-rows: repeat(2, 250px);
   grid-template-columns: repeat(3, 482px);
   margin-top: 48px; }
@@ -1059,7 +1065,9 @@ div {
     font-size: 23px; }
   .advantages__list {
     display: grid;
-    grid-template-areas: "item-1 item-2" "item-5 item-3" "item-6 item-4";
+    grid-template-areas: "item-1 item-2"
+ "item-5 item-3"
+ "item-6 item-4";
     grid-template-rows: 129px 60px 60px;
     grid-template-columns: repeat(2, 186px);
     margin-top: 16px; }

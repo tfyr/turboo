@@ -7,8 +7,10 @@ body {
 div {
   box-sizing: border-box; }
 
-.app {
-  overflow-x: hidden; }
+#app {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
 
 .header {
   background: #eff8f8;
